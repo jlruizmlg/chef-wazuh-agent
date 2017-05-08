@@ -1,0 +1,13 @@
+DEPENDENCIES
+  apt
+  wazuh
+    path: .
+    metadata: true
+  yum
+
+GRAPH
+  apt (6.1.0)
+  wazuh (0.0.1)
+    apt (>= 0.0.0)
+    yum (>= 0.0.0)
+  yum (5.0.1)

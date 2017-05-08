@@ -87,3 +87,7 @@ default['wazuh']['agent_auth']['certificate'] = nil
 default['wazuh']['agent_auth']['key'] = nil
 
 ```
+
+## Credits and thank you
+
+This Puppet module has been based in https://github.com/sous-chefs/ossec. Wazuh has forked it with the purpose of maintaining it. Thank you to the authors for the contribution.
